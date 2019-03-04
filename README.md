@@ -4,14 +4,14 @@ In this research project I implemented Block-Based Compressed Sensing of images 
 
 You can find the original paper here: https://arxiv.org/pdf/1606.01519.pdf
 
-## Implementation:
+## Implementation
 I implemented this project in python3 using Keras.
 
 The Neural Network looks something like this (The number of nodes in each hidden layer depends on R, B, and T): 
 
 ![img](NN.png?raw=true "Train")
 
-## Process:
+## Process
 I started with the best hyper parameters they found in their research. R = 0.25, T = 8 and K = 2 (#number of reconstruction layers)
 
 Having R, T, K as fixed numbers, I changed the sensing matrix size to B = 8, 16, 32. I shared the results in separate files. (Loss and PSNR plots, reconstrcuted and original images are shown in the codes)
@@ -28,5 +28,5 @@ Here are the results shown on train and test set:
 
 ![img2](test-Avg-PSNR.png?raw=true "Test")
 
-## Training:
+## Training
 I trained on AWS EC2 p2.xlarge instance.
