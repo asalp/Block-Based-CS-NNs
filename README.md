@@ -9,8 +9,11 @@ I implemented this project in python3 using Keras.
 
 The Neural Network looks something like this (The number of nodes in each hidden layer depends on R, B, and T): 
 R is compression rate.
-B is sensing block size
-T is redundancy factor
+
+B is sensing block size.
+
+T is redundancy factor.
+
 
 ![img](NN.png?raw=true "Train")
 
