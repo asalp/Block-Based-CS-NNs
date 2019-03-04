@@ -6,7 +6,7 @@ In this project I implemented Block-Based Compressed Sensing of images with Neur
 I implemented this project in python3 using keras.
 
 ## Process:
-I started with the best hyper parameters they found in their research. R=0.25 and T=8 and K=2 (#number of reconstruction layers)
+I started with the best hyper parameters they found in their research. R=0.25, T=8 and K=2 (#number of reconstruction layers)
 
 Having R, T, K as fixed numbers, I changed the sensing matrix size to B=8,16,32. I shared the results in separate files. 
 
