@@ -8,7 +8,7 @@ I implemented this project in python3 using keras.
 ## Process:
 I started with the best hyper parameters they found in their research. R=0.25, T=8 and K=2 (#number of reconstruction layers)
 
-Having R, T, K as fixed numbers, I changed the sensing matrix size to B=8,16,32. I shared the results in separate files. 
+Having R, T, K as fixed numbers, I changed the sensing matrix size to B=8, 16, 32. I shared the results in separate files. 
 
 Then I picked the best sensing block size and I trained model again with R(compression rate) = 0.1, 0.2, 0.3, 0.4, 0.5. (I didn't share the results)
 
