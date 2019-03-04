@@ -3,7 +3,7 @@
 In this project I implemented Block-Based Compressed Sensing of images with Neural Networks based on "A DEEP LEARNING APPROACH TO BLOCK-BASED COMPRESSED SENSING OF IMAGES" paper by Amir Adler⋆, David Boublil†, Michael Elad ⋆, Michael Zibulevsky⋆
 
 ## Implementation:
-I implemented in python3 using keras.
+I implemented this project in python3 using keras.
 
 ## Process:
 I started with the best hyper parameters they found in their research. R=0.25 and T=8 and K=2 (#number of reconstruction layers)
