@@ -1,6 +1,6 @@
 # Block-Based Compressed Sensing of images with Neural Networks
 
-In this project I implemented Block-Based Compressed Sensing of images with Neural Networks based on "A DEEP LEARNING APPROACH TO BLOCK-BASED COMPRESSED SENSING OF IMAGES" paper by Amir Adler⋆, David Boublil†, Michael Elad ⋆, Michael Zibulevsky⋆
+In this project I implemented Block-Based Compressed Sensing of images with Neural Networks based on "A DEEP LEARNING APPROACH TO BLOCK-BASED COMPRESSED SENSING OF IMAGES" paper by Amir Adler, David Boublil, Michael Elad , Michael Zibulevsky
 
 ## Implementation:
 I implemented this project in python3 using keras.
