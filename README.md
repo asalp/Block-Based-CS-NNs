@@ -7,13 +7,12 @@ You can find the original paper here: https://arxiv.org/pdf/1606.01519.pdf
 ## Implementation
 I implemented this project in python3 using Keras.
 
-The Neural Network looks something like this (The number of nodes in each hidden layer depends on R, B, and T): 
-R is compression rate.
+### Hyper parameters:
+* R is compression size
+* B is sensing block size
+* T is redundancy factor
 
-B is sensing block size.
-
-T is redundancy factor.
-
+The Neural Network looks something like this (the number of the nodes in each layer depends on R, B, and T):
 
 ![img](NN.png?raw=true "Train")
 
